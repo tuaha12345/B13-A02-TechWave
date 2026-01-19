@@ -1,0 +1,82 @@
+
+*{
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color: white;
+ 
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.green{
+    color: #00FF88;
+}
+.max-width{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.linear-text{
+    background: linear-gradient(33deg, #F7E93F 0%,#FB09B4 51%, #9100F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.linear-bg{
+     background: linear-gradient(45deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+}
+.button-gradient{
+    background: linear-gradient(45deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    padding:12px 16px;
+    border:none;
+    border-radius: 45px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.button-green{
+    background:none;
+    border: 2px solid #00FF88;
+    padding:12px 16px;
+    border-radius: 45px;
+    font-weight: 600;
+    color:#00FF88;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* hero section  */
+  
+.hero-img-container {
+    background-image: url('./assets/hero-circle.png');
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* top: -15%; */
+}
+.hero-img-container img{
+    height: 175px;
+    width: 120px;
+}
+.NEW{
+    position: absolute;
+    top: 9%;
+    right: 5%;
+    background: #00FF88;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #18072D;
+    
+}
+
+/* podcast section  */
+.podcast .about{
+    max-width: 1200px;
+}
