@@ -5,6 +5,7 @@
   color: white;
  
 }
+
 p{
     font-size: 16px;
     line-height: 24px;
@@ -116,3 +117,108 @@ p{
   align-items: center;
   gap: 8px;
 }
+
+/* for desktop  */
+@media screen and (min-width:993px) {
+    .hamburger-button,.mobile-p, hr{
+    display: none;
+    }
+
+}
+
+/* Responsive Design  for mobile  */
+@media (max-width: 576px) {
+    .desktop-p{
+        display: none;
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    h2{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    nav ul, .nav-button{
+        display: none;
+    }
+    nav button{
+        background: none;
+    }
+
+        .hero {
+        background-image: url('./assets/hero-bg.png') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        min-height: 100vh;
+    }
+    .hero-img-container {
+        height: 250px;
+        width: 250px;
+    }
+    .hero-img-container img{
+        height: 125px;
+        width: 85px;
+    }
+    .rank{
+        display: grid;
+        padding:0 20px;
+        grid-template-columns: repeat(2,2fr);
+        justify-content: space-between;
+        gap: 30px 100px; 
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .why-choose{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .choose-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px 0px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        
+    }
+    .choose-card{
+        max-width: 350px;
+       
+        
+    }
+    .featured-episodes-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .kumar{
+        margin:0px 25px;
+        text-align: center;
+    }
+    .kumar, .alex-kumar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        footer {
+        background-image: url('./assets/footer-bg.png') !important;
+        background-size: cover !important;
+        background-position: center !important;
+        padding: 60px 20px !important;
+    }
+    footer > div{
+       padding: 40px 10px !important;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .footer-social{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px 0px;
+    }
+}
+

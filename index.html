@@ -15,12 +15,13 @@
     <header>
         <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto ">
             <h3 class="text-3xl font-bold">Tech<span class="linear-text">Wave</sp></h3>
-            <ul class="flex gap-8">
+            <ul class="flex gap-8 ">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Episodes</a></li>
                 <li><a href="#">Host</a></li>
             </ul>
-            <button class="button-gradient">Subscribe  <i class="fa fa-arrow-right"></i></button>
+            <button class="button-gradient nav-button">Subscribe  <i class="fa fa-arrow-right"></i></button>
+            <button class="hamburger-button"><img src="./assets/hamburger-menu.png"></button>
         </nav>
     </header>
     <main>
@@ -30,7 +31,7 @@
                 <img src="./assets/microphone.png"  alt="Hero Image" ><sup class="NEW">NEW</sup>
             </div>
             <div class="banner-container text-center text-white mt-12 flex flex-col gap-6  ">
-                <h2 class="text-6xl font-extrabold">TechWave</h2>
+                <h1 class="text-6xl font-extrabold">TechWave</h1>
                 <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
                 <div class="buttons-container flex gap-6 justify-center">
                     <button class="button-gradient"><img src="./assets/spotify.png" alt="Spotify Logo" class="h-[20px] w-[20px]">Listen on Spotify</button>
@@ -42,28 +43,31 @@
         <section class="podcast  pb-12">
             <div class="about  max-width py-6">
                 <h2 class="text-4xl font-bold text-white text-center mb-6">About the Podcast</h2>
-                <p class="text-white text-center ">
+                <p class="text-white text-center desktop-p">
                     TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.<br>
                     We break down complex topics into digestible insights, explore productivity strategies that actually work,<br>
                     and share stories of personal growth from industry leaders.<br><br>
                     Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+                <p class="mobile-p px-4">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.<br>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+                <hr class="max-w-[450px] mx-auto mt-3">
+                
             </div>
-            <div class="flex justify-between py-7 max-width">
-               <div class="podcast-card">
-                <h3 class="text-5xl font-bold green">150k+</h3>
-                <p class="text-base">Monthly Listeners</p>
+            <div class="flex justify-between py-7 max-width rank">
+               <div class="podcast-card ">
+                <h3 class="text-5xl font-bold green text-center text-center">150k+</h3>
+                <p class="text-base pt-5">Monthly Listeners</p>
                </div>
                <div class="podcast-card">
-                <h3 class="text-5xl font-bold green">200+</h3>
-                <p class="text-base">Episodes Published</p>
+                <h3 class="text-5xl font-bold green text-center">200+</h3>
+                <p class="text-base pt-5">Episodes Published</p>
                </div>
                <div class="podcast-card">
-                <h3 class="text-5xl font-bold green">4.9★</h3>
-                <p class="text-base">Average Rating</p>
+                <h3 class="text-5xl font-bold green text-center">4.9★</h3>
+                <p class="text-base pt-5">Average Rating</p>
                </div>
                <div class="podcast-card">
-                <h3 class="text-5xl font-bold green">50+</h3>
-                <p class="text-base">Industry Experts</p>
+                <h3 class="text-5xl font-bold green text-center">50+</h3>
+                <p class="text-base pt-5">Industry Experts</p>
                </div>
             </div>
         </section>
@@ -99,9 +103,9 @@
             </div>
         </section>
 
-        <section class="Featured Episodes py-[120px]">
+        <section class="Featured-Episodes py-[120px]">
             <h2 class="text-4xl font-bold text-white text-center mb-10">Featured Episodes</h2>
-            <div class="flex max-width gap-[30px]">
+            <div class="featured-episodes-container flex max-width gap-[30px]">
                 <div class="featured-card bg-[#220442] rounded-t-lg">
                     <iframe class="rounded-t-lg" width="380" height="214" src="https://www.youtube.com/embed/2f5NHArhhQ0?si=6jtyP-AbIDDEbZmf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="p-6">
@@ -159,7 +163,7 @@
 
     <footer class="bg-[url('./assets/footer-bg.png')] flex flex-col justify-center items-center py-12 text-white  bg-cover bg-center">
       <div class=" flex flex-col justify-center items-center p-[120px]">
-                 <h2 class="text-6xl font-extrabold">Tech<span class="linear-text">Wave</span></h2> 
+                 <h1 class="text-6xl font-extrabold">Tech<span class="linear-text">Wave</span></h1> 
                 <div class="footer-social flex gap-x-10 my-6  ">
                     <a href="#"><img src="assets/spotify.png"> <p>Spotify</p></a>
                     <a href="#" class=""><img src="assets/apple-podcast.png" class=""> <p>Apple Podcasts</p></a>
