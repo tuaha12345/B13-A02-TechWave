@@ -9,6 +9,7 @@ p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    color: #A89EB7;
 }
 .green{
     color: #00FF88;
@@ -79,4 +80,19 @@ p{
 /* podcast section  */
 .podcast .about{
     max-width: 1200px;
+}
+
+/* Choose section  */
+.choose-container{
+    margin-top: 40px;
+}
+
+/* feature section  */
+.featured-footer p{
+    color: #91FF90;
+    font-weight: 600;
+    
+}
+.featured-card{
+    max-width: 380px;
 }
