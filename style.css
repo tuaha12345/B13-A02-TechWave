@@ -96,3 +96,15 @@ p{
 .featured-card{
     max-width: 380px;
 }
+
+/* Meet the hosts section  */
+.social-media a{
+    border: 1px solid #4F3770;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.social-media img{
+    width: 16px;
+    height: 16px;
+}
